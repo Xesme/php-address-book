@@ -10,9 +10,9 @@
   <div class="container">
     <div class="move-contacts">
       <h1>Address Book </h1>
-      {% if address_book is not empty %}
+      {% if list_of_contacts is not empty %}
       <ul>
-        {% for contact in address_book %}
+        {% for contact in list_of_contacts %}
         <li><span id="name-label">{{contact.getFirstName}}, {{contact.getLastName}}<span> </li>
         <ul>
           <li> tel: {{contact.getNumber}} </li>
