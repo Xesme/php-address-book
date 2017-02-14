@@ -1,0 +1,22 @@
+body {
+    background: url("img/stripes.jpg");
+}
+
+h1 {
+  text-align: center;
+}
+
+.move-contacts {
+  text-align: left;
+
+}
+.container {
+  background: white;
+  margin: 40px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+#name-label {
+  font-weight: bold;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Address Book</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>You have created a new contact!</h1>
+        <h3>Name: {{new_contact.FirstName}}, {{new_contact.LastName}}</h3>
+        <h3>Email: {{new_contact.Email}}</h3>
+        <h3>Telephone: {{new_contact.number}}</h3>
+        <form action="/" method="get">
+          <button class="btn btn-primary" type="submit">Go Back!</button>
+        </form>
+    </div>
+</body>
+</html>
